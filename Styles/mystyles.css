@@ -1,0 +1,65 @@
+/*Formatting the home page*/
+.contactheader {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    text-decoration: underline;
+    text-align: center;
+    right: 100px;
+    left: 100px;
+    font-weight: bold;
+}
+.contactbody {
+    text-align: center;
+    right: 100px;
+    left: 100px;
+}
+.bgcolorhome {
+    background-color: rgb(204, 212, 225);
+}
+.name{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    text-shadow: 4px 4px rgba(1, 26, 94, 0.275);
+}
+/*centering the video on the home page*/
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+
+/*formatting for the Resume/About page*/
+.resumeimage{
+    padding: 200px;
+    width: 400px;
+}
+.resumetitle {
+    text-align: center;
+}
+.bgcolorabout {
+    background-color: rgb(246, 242, 255);
+}
+.aboutme{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    text-shadow: 4px 4px rgba(245, 8, 245, 0.268);
+}
+ol{
+    list-style-type: upper-roman;
+}
+ul{
+      list-style-type:disc;
+}
+
+
+/*General Formatting*/
+.linkedinlink { /*for the footer*/
+    text-decoration: underline;
+    margin: auto;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+  

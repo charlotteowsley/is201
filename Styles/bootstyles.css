@@ -1,0 +1,54 @@
+/*general formatting*/
+.common {
+    position: absolute;
+}
+.tableaupadding{
+    top: 114px;
+    left: 10px;
+    right: 10px;
+    bottom: 64px;
+    padding: 10px;
+}
+.pagelinks{
+    text-align: right;
+}
+a{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+
+/*header stuff*/
+.header{
+    top: 5px;
+    left: 0px;
+    right: 0px;
+    height: 100px;
+    z-index: 1;
+    border: solid 1px #555555;
+    padding: 10px;
+    background-color: aliceblue;
+}
+.tableautitle{
+    padding: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    text-shadow: 2px 2px rgba(1, 26, 94, 0.275);
+    text-align: center;
+    font-size: 40px;
+}
+
+
+/*footer details*/
+.footer{
+    bottom: 5px ;
+    left: 5px;
+    right: 5px;
+    height: 50px;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color: black;
+    text-align: center;
+    position: fixed;
+    border: solid 1px black;
+    background-color: aliceblue;
+}
+
